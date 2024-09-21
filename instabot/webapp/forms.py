@@ -11,3 +11,4 @@ class BotRequestForm(forms.ModelForm):
     class Meta:
         model = BotRequest
         fields = ['request_type']
+
