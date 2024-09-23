@@ -82,6 +82,22 @@ DATABASES = {
 }
 
 
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'your_database_name',
+        'USER': 'your_database_user',
+        'PASSWORD': 'your_database_password',
+        'HOST': 'your_aws_rds_endpoint',  # e.g., mydbinstance.123456789012.us-east-1.rds.amazonaws.com
+        'PORT': '5432',  # Default PostgreSQL port
+    }
+}
+
+'''
+
+
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 

@@ -30,9 +30,9 @@ class BotRequest(models.Model):
 
     date_time = models.DateTimeField(auto_now_add=True)
     STATUS_CHOICES = [
-        ('queue', 'Queue'),
-        ('progress', 'Progress'),
-        ('success', 'Success'),
-        ('failed', 'Failed'),
+        ('queue', 'queue'),
+        ('progress', 'progress'),
+        ('success', 'success'),
+        ('failed', 'failed'),
     ]
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='queue')
